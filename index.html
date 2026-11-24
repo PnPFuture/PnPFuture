@@ -94,6 +94,13 @@
     .btn-profile { background: linear-gradient(135deg, rgba(139, 92, 246, 0.35), rgba(91, 33, 182, 0.35)); }
     .btn-map { background: linear-gradient(135deg, rgba(59, 130, 246, 0.35), rgba(29, 78, 216, 0.35)); }
     .btn-whatsapp { background: linear-gradient(135deg, rgba(37, 211, 102, 0.35), rgba(18, 140, 126, 0.35)); }
+
+    /* Phones and small screens use the mobile background */
+    @media (max-width: 768px) {
+      body {
+        background: #efe9fb url('background-mobile.jpg') center / cover no-repeat;
+      }
+    }
   </style>
 </head>
 <body>
